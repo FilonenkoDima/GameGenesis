@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb19a44-0c72-41bd-ba7f-8b981a37de02" name="Changes" comment="" />
+    <list default="true" id="dcb19a44-0c72-41bd-ba7f-8b981a37de02" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/AnimationType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/AnimationType.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/Idle.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/Idle.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Hero and Opponents/Sprites/Player/Idle/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Hero and Opponents/Sprites/Player/Idle/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Hero and Opponents/Sprites/Player/Idle/walk-with-weapon-1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Hero and Opponents/Sprites/Player/Idle/walk-with-weapon-1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerEntity.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,6 +119,7 @@
       <workItem from="1677446828547" duration="7143000" />
       <workItem from="1678737923028" duration="6000" />
       <workItem from="1678737943184" duration="893000" />
+      <workItem from="1678742108556" duration="2036000" />
     </task>
     <servers />
   </component>
