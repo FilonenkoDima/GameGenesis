@@ -14,28 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CustomBlends:
   - m_From: 'PlayerRightCamera '
-    m_To: StartLevelCamera
-    m_Blend:
-      m_Style: 1
-      m_Time: 7
-      m_CustomCurve:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 0
-        m_PostInfinity: 0
-        m_RotationOrder: 0
-  - m_From: StartLevelCamera
-    m_To: 'PlayerRightCamera '
-    m_Blend:
-      m_Style: 1
-      m_Time: 7
-      m_CustomCurve:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 0
-        m_PostInfinity: 0
-        m_RotationOrder: 0
-  - m_From: 'PlayerRightCamera '
     m_To: PlayerLeftCamera
     m_Blend:
       m_Style: 1
@@ -51,6 +29,28 @@ MonoBehaviour:
     m_Blend:
       m_Style: 1
       m_Time: 1
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+  - m_From: 'PlayerRightCamera '
+    m_To: StartLevelCamera
+    m_Blend:
+      m_Style: 1
+      m_Time: 7
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+  - m_From: StartLevelCamera
+    m_To: 'PlayerRightCamera '
+    m_Blend:
+      m_Style: 1
+      m_Time: 7
       m_CustomCurve:
         serializedVersion: 2
         m_Curve: []
