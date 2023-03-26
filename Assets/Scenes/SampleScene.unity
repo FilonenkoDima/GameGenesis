@@ -511,7 +511,7 @@ Transform:
   m_GameObject: {fileID: 505175126}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -27.063261, y: 0.01999998, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.1719, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1418259530}
@@ -2185,15 +2185,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 1885965433}
-  _horizontalSpeed: 8
-  _direction: 0
-  _verticalSpeed: 4
-  _minSize: 20
-  _maxSize: 22
-  _minVerticalPosition: -8
-  _maxVerticalPosition: -4
-  _jumpForce: 800
-  _gravityScale: 5
+  _directionalMovementData:
+    <HorizontalSpeed>k__BackingField: 8
+    <Direction>k__BackingField: 0
+    <VerticalSpeed>k__BackingField: 4
+    <MinSize>k__BackingField: 20
+    <MaxSize>k__BackingField: 28
+    <MinVerticalPosition>k__BackingField: -8
+    <MaxVerticalPosition>k__BackingField: -4.5
+  _jumpData:
+    <JumpForce>k__BackingField: 1200
+    <GravityScale>k__BackingField: 5
   _cameras:
     _rightCamera: {fileID: 9465584}
     _leftCamera: {fileID: 505175127}
@@ -2292,9 +2294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 112b15bd910b47d180717d942326608c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerEntity: {fileID: 1885965426}
-  _horizontalDirection: 0
-  _verticalDirection: 0
 --- !u!95 &1885965431
 Animator:
   serializedVersion: 5
@@ -2315,6 +2314,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1885965432
 MonoBehaviour:
   m_ObjectHideFlags: 0
